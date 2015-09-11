@@ -39,7 +39,7 @@ server.listen(config.port, config.ip, function () {
   browserSync({
 
     proxy: 'localhost:' + config.port,
-    files: ['client/**/*.*'],
+    files: ['client/**/*.*', '_built'],
     ghostMode: {
         clicks: true,
         forms: false,

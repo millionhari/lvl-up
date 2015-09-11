@@ -22,6 +22,7 @@
   },
   "devDependencies": {
     "browser-sync": "^2.9.3",
+    "chalk": "^1.1.1",
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^3.0.1",
     "gulp-css-globbing": "^0.1.8",
@@ -31,6 +32,8 @@
     "gulp-nodemon": "^2.0.4",
     "gulp-sass": "^2.0.4",
     "gulp-sourcemaps": "^1.5.2",
+    "gulp-watch": "^4.3.5",
+    "node-neat": "^1.7.2",
     "require-dir": "^0.3.0"
   }
 }

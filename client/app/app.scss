@@ -1,8 +1,24 @@
 @import url(https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans:400,300,600,300italic,400italic);
 
 body{
-    font-family: 'Open Sans', sans-serif;
+    color:#444;
+    background-color: #f4f4f4;
 }
-h1,h2,h3,h4,h5,h6{
-    font-family: 'Fjalla One', sans-serif;
+nav {
+    display: none;
+}
+.page{
+    @include outer-container;
+}
+video{
+    width:100%;
+}
+
+$start: 3em;
+@each $h in h1, h2, h3, h4, h5, h6{
+    #{$h} {
+      font-size: $start;
+    }
+
+    $start: $start - 0.33;
 }
