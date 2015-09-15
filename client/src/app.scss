@@ -1,0 +1,42 @@
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans:400,300,600,300italic,400italic);
+
+body{
+    color:#444;
+    background-color: #f4f4f4;
+}
+ nav{
+    @include clearfix;
+ }
+
+.page{
+    @include outer-container;
+}
+
+$start: 3em;
+@each $h in h1, h2, h3, h4, h5, h6{
+    #{$h} {
+      font-size: $start;
+    }
+
+    $start: $start - 0.33;
+}
+
+.splash {
+    text-align: center;
+    margin: 10% 0 0 0;
+    box-sizing: border-box;
+}
+
+.splash .message {
+    font-size: 72px;
+    line-height: 72px;
+    text-shadow: rgba(0, 0, 0, 0.5) 0 0 15px;
+    text-transform: uppercase;
+}
+
+.splash .fa-spinner {
+    text-align: center;
+    display: inline-block;
+    font-size: 72px;
+    margin-top: 50px;
+}
