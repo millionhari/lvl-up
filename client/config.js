@@ -41,8 +41,6 @@ System.config({
     "bootstrap": "github:twbs/bootstrap@3.3.5",
     "core-js": "npm:core-js@0.9.18",
     "fetch": "github:github/fetch@0.9.0",
-    "font-awesome": "npm:font-awesome@4.4.0",
-    "randomcolor": "npm:randomcolor@0.4.0",
     "text": "github:systemjs/plugin-text@0.0.2",
     "github:aurelia/animator-css@0.16.0": {
       "aurelia-metadata": "github:aurelia/metadata@0.8.0",
@@ -169,9 +167,6 @@ System.config({
       "fs": "github:jspm/nodelibs-fs@0.1.2",
       "process": "github:jspm/nodelibs-process@0.1.1",
       "systemjs-json": "github:systemjs/plugin-json@0.1.0"
-    },
-    "npm:font-awesome@4.4.0": {
-      "css": "github:systemjs/plugin-css@0.1.16"
     }
   }
 });

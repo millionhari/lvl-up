@@ -1,4 +1,4 @@
-import randomColor from 'randomcolor';
+// import randomColor from 'randomcolor';
 import {customElement, bindable, inject} from 'aurelia-framework';
 
 export class HolderCustomElement {
@@ -14,10 +14,10 @@ export class HolderCustomElement {
         var color_array = ['monochrome', 'blue', 'green', 'red', 'orange', 'yellow', 'green'];
         var random_color = color_array[Math.floor(Math.random() * color_array.length)];
 
-        var colors = randomColor({
-            count: 10,
-            hue: random_color
-        });
+        // var colors = randomColor({
+        //     count: 10,
+        //     hue: random_color
+        // });
         var elems = [];
 
         for (var i = 0; i < 10; i++) {
