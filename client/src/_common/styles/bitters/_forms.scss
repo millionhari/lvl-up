@@ -59,7 +59,16 @@ select[multiple=multiple] {
     }
   }
 }
-
+input[type=color]{
+    background-color: initial;
+    padding:0;
+    &::-webkit-color-swatch-wrapper{
+        padding:0;
+    }
+    &::-webkit-color-swatch{
+        padding: $base-spacing / 3;
+    }
+}
 textarea {
   resize: vertical;
 }

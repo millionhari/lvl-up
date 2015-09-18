@@ -1,0 +1,57 @@
+audio::-webkit-media-controls-panel, video::-webkit-media-controls-panel{
+    border-radius:2px;
+    background-color:rgba(0,0,0,0.6);
+    height:40px;
+}
+audio::-webkit-media-controls-mute-button{
+
+}
+audio::-webkit-media-controls-play-button{
+
+}
+audio::-webkit-media-controls-timeline-container{
+
+}
+audio::-webkit-media-controls-current-time-display{
+
+}
+audio::-webkit-media-controls-time-remaining-display{
+
+}
+audio::-webkit-media-controls-timeline{
+
+}
+audio::-webkit-media-controls-volume-slider-container{
+
+}
+audio::-webkit-media-controls-volume-slider{
+
+}
+audio::-webkit-media-controls-seek-back-button{
+
+}
+audio::-webkit-media-controls-seek-forward-button{
+
+}
+audio::-webkit-media-controls-fullscreen-button{
+
+}
+audio::-webkit-media-controls-rewind-button{
+
+}
+audio::-webkit-media-controls-return-to-realtime-button{
+
+}
+audio::-webkit-media-controls-toggle-closed-captions-button{
+
+}
+audio::-webkit-media-controls-enclosure, video::-webkit-media-controls-enclosure {
+    width: 100%;
+    max-width: none;
+    height: 40px;
+    flex-shrink: 0;
+    bottom: 0px;
+    text-indent: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}

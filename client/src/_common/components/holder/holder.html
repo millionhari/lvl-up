@@ -1,0 +1,12 @@
+<template>
+      <svg class="holder">
+            <ellipse if.bind="patternType('ellipsis')"
+                repeat.for="p of getElems()" cx.one-way="p.cx" cy.one-way="p.cy" rx.one-way="p.rx" ry.one-way="p.ry" fill-opacity="${p.opacity}" fill="${p.fill}"></ellipse>
+            <rect if.bind="patternType('rect')"
+                repeat.for="p of getElems()" x.one-time="p.x" y.one-time="p.y" width.one-time="p.width" height.one-time="p.height" fill-opacity="${p.opacity}" fill="${p.fill}"></rect>
+            <rect if.bind="patternType('square')"
+                repeat.for="p of getElems()" x.one-time="p.x" y.one-time="p.y" width.one-time="p.width" height.one-time="p.height" fill-opacity="${p.opacity}" fill="${p.fill}"></rect>
+            <circle if.bind="patternType('circle')"
+                repeat.for="p of getElems()" cx.one-way="p.cx" cy.one-way="p.cy" r.one-way="p.r" fill-opacity="${p.opacity}" fill="${p.fill}"></circle>
+      </svg>
+</template>

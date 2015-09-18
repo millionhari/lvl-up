@@ -1,0 +1,33 @@
+.litmus{
+
+    .litmus-container{
+        @include outer-container;
+    }
+
+    .litmus-inline-headings{
+        h1,h2,h3,h4,h5,h6{
+            @include span-columns(2);
+        }
+    }
+    .litmus-list-grid-2{
+        @include span-columns(6);
+    }
+    .litmus-list-grid-3{
+        @include span-columns(4);
+        @include omega(3n);
+    }
+    .litmus-list-grid-4{
+        @include span-columns(3);
+        @include omega(4n);
+    }
+
+    .litmus-list-flex{
+       @include clearfix;
+       li{
+            @include span-columns(3);
+            @include omega(4n);
+            margin-bottom:15px;
+       }
+    }
+
+}
