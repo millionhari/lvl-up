@@ -2,7 +2,6 @@ var gulp        = require('gulp');
 var sass        = require('gulp-sass');
 var autopre     = require('gulp-autoprefixer');
 var sourcemaps  = require('gulp-sourcemaps');
-var minifyCss   = require('gulp-minify-css');
 var inject      = require('gulp-inject');
 var flatten     = require('gulp-flatten');
 var paths       = require('../paths');
