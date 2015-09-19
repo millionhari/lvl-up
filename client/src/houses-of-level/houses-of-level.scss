@@ -1,0 +1,29 @@
+.page-host {
+
+}
+.houses-of-level {
+  .row {
+    @include outer-container;
+  }
+  .houses {
+    .col-md-3 {
+      @include span-columns(3, block-collapse);
+    }
+  }
+  .house {
+    text-align: center;
+    color: white;
+  }
+  .gryffindor {
+    background-color: #B6554A;
+  }
+  .slytherin {
+    background-color: #73cda8;
+  }
+  .hufflepuff {
+    background-color: #eec768;
+  }
+  .ravenclaw {
+    background-color: #34495e;
+  }
+}
